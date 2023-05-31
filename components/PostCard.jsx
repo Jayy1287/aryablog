@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 import moment from 'moment';
 import Link from 'next/link';
 
