@@ -18,6 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
     'jsx-a11y/label-has-associated-control': 0,
     'react/jsx-props-no-spreading': 0,
     'react/react-in-jsx-scope': 0,
@@ -26,8 +28,17 @@ module.exports = {
     'linebreak-style': 0,
     'react/state-in-constructor': 0,
     'import/prefer-default-export': 0,
-    
-    
+    'max-len': [
+      2,
+      260,
+    ],
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        max: 1,
+        maxEOF: 1,
+      },
+    ],
     'no-underscore-dangle': [
       'error',
       {
@@ -69,7 +80,5 @@ module.exports = {
         ],
       },
     ],
-    "react/no-unescaped-entities": "off",
-    
   },
 };
