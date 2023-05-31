@@ -26,17 +26,8 @@ module.exports = {
     'linebreak-style': 0,
     'react/state-in-constructor': 0,
     'import/prefer-default-export': 0,
-    'max-len': [
-      2,
-      250,
-    ],
-    'no-multiple-empty-lines': [
-      'error',
-      {
-        max: 1,
-        maxEOF: 1,
-      },
-    ],
+    
+    
     'no-underscore-dangle': [
       'error',
       {
@@ -78,5 +69,7 @@ module.exports = {
         ],
       },
     ],
+    "react/no-unescaped-entities": "off",
+    
   },
 };
